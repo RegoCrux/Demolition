@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models
+END
+Demolition.dbml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Demolition.dbml
+END
+RoleViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/RoleViewModel.cs
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/User.cs
+END
+App.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/App.cs
+END
+Industry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Industry.cs
+END
+IndexViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/IndexViewModel.cs
+END
+SmtpClientProxy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/SmtpClientProxy.cs
+END
+Demo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Demo.cs
+END
+Demolition.dbml.layout
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Demolition.dbml.layout
+END
+ISmtpClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/ISmtpClient.cs
+END
+Model.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Model.cs
+END
+AccountModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/AccountModels.cs
+END
+DetailsViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/DetailsViewModel.cs
+END
+Demolition.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Demolition.designer.cs
+END
+Instance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Instance.cs
+END
+Job.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/214/tags/iteration-3/Demolition/Models/Job.cs
+END

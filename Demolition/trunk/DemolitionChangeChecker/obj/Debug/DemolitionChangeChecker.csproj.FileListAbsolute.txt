@@ -1,0 +1,12 @@
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\DemolitionChangeChecker.exe
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\DemolitionChangeChecker.pdb
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\Demolition.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\AWSSDK.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\DiffieHellman.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\NLog.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\bin\Debug\Demolition.pdb
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\obj\Debug\DemolitionChangeChecker.exe
+C:\Users\Topher\Documents\SeniorProject\Demolition\trunk\DemolitionChangeChecker\obj\Debug\DemolitionChangeChecker.pdb

@@ -1,0 +1,63 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.designer.cs" caret="4123" fromTop="27" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="0" fromTop="0" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="0" fromTop="0" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="641" fromTop="14" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx.cs" caret="387" fromTop="14" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx.cs" caret="855" fromTop="21" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="996" fromTop="15" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="1152" fromTop="19" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="805" fromTop="9" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="1372" fromTop="36" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx" caret="1264" fromTop="36" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="478" fromTop="9" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="2088" fromTop="20" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="142" fromTop="9" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="1637" fromTop="7" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="142" fromTop="11" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="592" fromTop="12" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="97" fromTop="3" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx.cs" caret="721" fromTop="17" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="2230" fromTop="0" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:EnterHRInfo.aspx" caret="65" fromTop="0" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx.cs" caret="48" fromTop="0" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx.cs" caret="886" fromTop="19" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx.cs" caret="872" fromTop="20" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="608" fromTop="12" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx.cs" caret="1681" fromTop="20" />
+      <File id="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F/f:Default.aspx.cs" caret="706" fromTop="18" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="2723" fromTop="22" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="2576" fromTop="18" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="819" fromTop="8" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="1078" fromTop="13" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx.cs" caret="548" fromTop="12" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx.cs" caret="1061" fromTop="16" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx.cs" caret="1290" fromTop="21" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="2780" fromTop="0" />
+      <File id="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E/f:UserDataEntry.aspx" caret="551" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

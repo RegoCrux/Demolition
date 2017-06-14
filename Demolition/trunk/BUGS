@@ -1,0 +1,43 @@
+Known Issues
+===============================================================================
+
+EC2 Capacity Errors
+-------------------------------------------------------------------------------
+
+The queue does not deal well with "out of capacity" issues from the EC2 API.
+This could be mitigated by better reporting status from the Workers or a better
+way of polling the API instead of in a while(true) loop that sleeps.
+
+Port Mixup
+-------------------------------------------------------------------------------
+
+When testing the when uploading multiple apps, there is sometimes a mixup with 
+the port the app is assigned to in the data model of our demolition application.
+The apps are always uploaded to and started on the correct port (e.g. HRO will
+launch on 8000 and TLO will launch on 8001) but they will not have the correct
+port in the data model (clicking HRO in the demo mode of the application will
+take the user to 8000 and clicking TLO will take the user to 8000)
+
+No spaces in demos, applications names
+-------------------------------------------------------------------------------
+
+This was done on purpose to avoid folder naming issue when unzipping
+applications on the EC2 instances. We have a regular expression validation on
+these fields that disable other non-number and non-word inputs that could
+easily be modified to accomodate spaces.
+
+Flat zips for applications
+-------------------------------------------------------------------------------
+
+In order to make unzipping applications easier and actually deterministic, we
+require all applications uploaded by system administrators to be completely
+flat. This means they are not bundled within another folder, when you unzip it
+the bin/ directly should be at the top level along with other assets necessary.
+
+Database name hardcoded
+-------------------------------------------------------------------------------
+
+The apps are currently setup so they will create a database with the same name
+as the uploaded app (i.e. uploading an app called HRO will create a database
+called HRO) As implemented right now, the apps must be called HRO or Payroll
+(i.e. creating HRO, HRO2, HRO3, only HRO will create the databases successfully)

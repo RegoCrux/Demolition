@@ -1,0 +1,21 @@
+deployment:
+    environment development
+        platform            => sqlserver2008
+        host                => ec2-184-73-88-48.compute-1.amazonaws.com
+        database            => Dev
+        login               => sa
+        password            => sentprime
+        
+    environment test
+        platform            => sqlserver2008
+        host                => ec2-184-73-88-48.compute-1.amazonaws.com
+        database            => Test
+        login               => sa
+        password            => sentprime
+        
+    environment production
+        platform            => sqlserver2008
+        host                => ec2-184-73-88-48.compute-1.amazonaws.com
+        database            => Production
+        login               => sa
+        password            => sentprime

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/387/trunk/DemolitionTest/Acceptance
+END
+DataResetTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/DataResetTest.cs
+END
+DataIntegrationTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/DataIntegrationTest.cs
+END
+NewApplicationTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/NewApplicationTest.cs
+END
+AuthenticationTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/AuthenticationTest.cs
+END
+SalesDashboardTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/382/trunk/DemolitionTest/Acceptance/SalesDashboardTest.cs
+END
+AdminDashboardTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/AdminDashboardTest.cs
+END
+ShutDownDemoTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/385/trunk/DemolitionTest/Acceptance/ShutDownDemoTest.cs
+END
+SetUpDemoTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/SetUpDemoTest.cs
+END
+EditApplicationTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/381/trunk/DemolitionTest/Acceptance/EditApplicationTest.cs
+END
+SalesAccessTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/387/trunk/DemolitionTest/Acceptance/SalesAccessTest.cs
+END

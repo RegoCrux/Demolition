@@ -1,0 +1,75 @@
+task :default => 'test:all'
+
+desc 'removes build files'
+task :clean do
+  FileUtils.rm_rf("**/bin")
+end
+
+desc 'compile'
+task :compile => :clean do
+  msbuild_path = File.join(ENV['windir'].dup, 'Microsoft.NET', 'Framework', 'v3.5', 'msbuild.exe')
+  sh "#{msbuild_path} Demolition.sln /maxcpucount /v:m /property:BuildInParallel=false /property:Configuration=debug /property:Architecture=x86 /t:Rebuild"
+end
+
+desc 'run the queue'
+task :queue do
+  sh "cd #{File.join("DemolitionQueue", "bin", "Debug")} && DemolitionQueue.exe"
+end
+
+namespace :test do
+  desc 'run all tests'
+  task :all => :compile do
+    win7_path = 'C:\Program Files (x86)'
+    win6_path = 'C:\Program Files'
+    exe_path  = File.exist?(win7_path) ? win7_path : win6_path
+    
+    sh %{"#{exe_path}\\Gallio\\bin\\Gallio.Echo.exe" DemolitionTest\\bin\\Debug\\DemolitionTest.dll}
+  end
+end
+
+namespace :db do
+  desc 'info for the db'
+  task :info do
+    sh "lib/wizardby.exe info"
+  end
+  
+  desc 'migrate the db'
+  task :migrate do
+    sh "lib/wizardby.exe upgrade"
+  end
+
+  desc 'create the db'
+  task :create do
+    sh "lib/wizardby.exe deploy"
+  end
+
+  desc 'seed it'
+  task :seed => :compile do
+    path = File.join("DemolitionSeeder", "bin", "Debug", "DemolitionSeeder.exe")
+    sh path
+  end
+  
+  namespace :test do
+    desc 'info for the db'
+    task :info do
+      sh "lib/wizardby.exe info /e:test"
+    end
+    
+    desc 'migrate the db'
+    task :migrate do
+      sh "lib/wizardby.exe upgrade /e:test"
+    end
+  end
+  
+  namespace :production do
+    desc 'info for the db'
+    task :info do
+      sh "lib/wizardby.exe info /e:production"
+    end
+    
+    desc 'migrate the db'
+    task :migrate do
+      sh "lib/wizardby.exe upgrade /e:production"
+    end
+  end
+end

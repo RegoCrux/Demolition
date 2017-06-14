@@ -1,0 +1,96 @@
+<Database Name="Restaurant">
+  <Table Name="Employees">
+    <Row>
+      <Column Name="FirstName">Renee</Column>
+      <Column Name="LastName">Smoe</Column>
+      <Column Name="Wage">7.50</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">21</Column>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="Tips">500</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Ashley</Column>
+      <Column Name="LastName">Miller</Column>
+      <Column Name="Wage">7.65</Column>
+      <Column Name="Deductions">5</Column>
+      <Column Name="Hours">17</Column>
+      <Column Name="JobTitle">Hostess</Column>
+      <Column Name="Tips">25</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Elena</Column>
+      <Column Name="LastName">Reed</Column>
+      <Column Name="Wage">6.50</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">28</Column>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="Tips">800</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Jessica</Column>
+      <Column Name="LastName">Goldman</Column>
+      <Column Name="Wage">6.95</Column>
+      <Column Name="Deductions">5</Column>
+      <Column Name="Hours">20</Column>
+      <Column Name="JobTitle">Hostess</Column>
+      <Column Name="Tips">625</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Jack</Column>
+      <Column Name="LastName">Neurohr</Column>
+      <Column Name="Wage">7.00</Column>
+      <Column Name="Deductions">4</Column>
+      <Column Name="Hours">5</Column>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="Tips">0</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Amy</Column>
+      <Column Name="LastName">Ringwald</Column>
+      <Column Name="Wage">6.40</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">27</Column>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="Tips">1700</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Mark</Column>
+      <Column Name="LastName">Stump</Column>
+      <Column Name="Wage">6.75</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">16</Column>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="Tips">450</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Elle</Column>
+      <Column Name="LastName">Woods</Column>
+      <Column Name="Wage">15.50</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">40</Column>
+      <Column Name="JobTitle">Manager</Column>
+      <Column Name="Tips">0</Column>
+    </Row>
+  </Table>
+  <Table Name="JobTypes">
+    <Row>
+      <Column Name="JobTitle">Server</Column>
+      <Column Name="PTODays">5</Column>
+      <Column Name="YrsExp">0</Column>
+      <Column Name="MaxHours">28</Column>
+    </Row>
+    <Row>
+      <Column Name="JobTitle">Hostess</Column>
+      <Column Name="PTODays">5</Column>
+      <Column Name="YrsExp">0</Column>
+      <Column Name="MaxHours">28</Column>
+    </Row>
+    <Row>
+      <Column Name="JobTitle">Manager</Column>
+      <Column Name="PTODays">20</Column>
+      <Column Name="YrsExp">5</Column>
+      <Column Name="MaxHours">50</Column>
+    </Row>
+  </Table>
+</Database>

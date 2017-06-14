@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Demolition">
+  <DataContextMoniker Name="/DemolitionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="34251a84-8160-4871-bb5a-589b0c010c50" absoluteBounds="2.75, 4.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DemolitionDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="656d086f-0ac4-4f6f-8352-f97ffb1450f4" absoluteBounds="2.7649999999999997, 4.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32e5e7aa-0e57-4092-81c0-1373b16ea23e" absoluteBounds="2.875, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DemolitionDataContext/Demo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8d490f7-8eaf-447b-abe6-fdd1f447fdc1" absoluteBounds="2.8899999999999997, 1.46, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b54fc9ab-ce3c-4b97-916d-4cc10110896d" absoluteBounds="0.5, 4.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DemolitionDataContext/Industry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3708d491-dae4-46fc-84f8-a1c201975e6c" absoluteBounds="0.51500000000000012, 4.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d7c0f4c-3da5-4a79-8ccf-97ac023d902c" absoluteBounds="5.375, 0.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DemolitionDataContext/Instance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7e8ede8-083d-4702-9661-1a00291d98bb" absoluteBounds="5.39, 1.335, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="deca1ffe-eef6-4baa-9da6-1c1afa24a572" absoluteBounds="7.5, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DemolitionDataContext/App" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92e48989-00c7-4864-998a-2f28cb27bfb9" absoluteBounds="7.5150000000000006, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.8125 : 4.125); (3.8125 : 3.34780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DemolitionDataContext/User/User_Demo" />
+      <nodes>
+        <classShapeMoniker Id="34251a84-8160-4871-bb5a-589b0c010c50" />
+        <classShapeMoniker Id="32e5e7aa-0e57-4092-81c0-1373b16ea23e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 4.125); (1.5 : 2.17390055338542); (2.875 : 2.17390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DemolitionDataContext/Industry/Industry_Demo" />
+      <nodes>
+        <classShapeMoniker Id="b54fc9ab-ce3c-4b97-916d-4cc10110896d" />
+        <classShapeMoniker Id="32e5e7aa-0e57-4092-81c0-1373b16ea23e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.875 : 2.11140055338542); (5.375 : 2.11140055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DemolitionDataContext/Demo/Demo_Instance" />
+      <nodes>
+        <classShapeMoniker Id="32e5e7aa-0e57-4092-81c0-1373b16ea23e" />
+        <classShapeMoniker Id="1d7c0f4c-3da5-4a79-8ccf-97ac023d902c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 1.88544840494792); (7.375 : 1.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DemolitionDataContext/App/App_Instance" />
+      <nodes>
+        <classShapeMoniker Id="deca1ffe-eef6-4baa-9da6-1c1afa24a572" />
+        <classShapeMoniker Id="1d7c0f4c-3da5-4a79-8ccf-97ac023d902c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7bf23301-05ac-4379-89e2-25921f8166d5" absoluteBounds="7.25, 3.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/DemolitionDataContext/Job" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83a22c1c-fe6f-4099-b575-690c66189da2" absoluteBounds="7.265, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.5 : 2.35942460742187); (7.4375 : 2.35942460742187); (7.4375 : 3.41030110677083); (2.031252 : 3.41030110677083); (2.031252 : 4.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DemolitionDataContext/App/App_Industry" />
+      <nodes>
+        <classShapeMoniker Id="deca1ffe-eef6-4baa-9da6-1c1afa24a572" />
+        <classShapeMoniker Id="b54fc9ab-ce3c-4b97-916d-4cc10110896d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

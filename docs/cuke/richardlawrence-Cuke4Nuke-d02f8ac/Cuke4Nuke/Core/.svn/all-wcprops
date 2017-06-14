@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core
+END
+StepArgument.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/StepArgument.cs
+END
+ObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/ObjectFactory.cs
+END
+Processor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Processor.cs
+END
+Repository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Repository.cs
+END
+TableConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/TableConverter.cs
+END
+Hook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Hook.cs
+END
+LogEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/LogEventArgs.cs
+END
+AfterHook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/AfterHook.cs
+END
+BeforeHook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/BeforeHook.cs
+END
+Core.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Core.csproj
+END
+StepDefinition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/StepDefinition.cs
+END
+Listener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Listener.cs
+END
+Loader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/Loader.cs
+END
+SnippetBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/public-svn/naq0676-sentinelprime_docs/!svn/ver/17/cuke/richardlawrence-Cuke4Nuke-d02f8ac/Cuke4Nuke/Core/SnippetBuilder.cs
+END

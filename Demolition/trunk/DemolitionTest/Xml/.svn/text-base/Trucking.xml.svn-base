@@ -1,0 +1,96 @@
+﻿<Database Name="Trucking">
+  <Table Name="Employees">
+    <Row>
+      <Column Name="FirstName">Renee</Column>
+      <Column Name="LastName">Smoe</Column>
+      <Column Name="Wage">50000</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">50</Column>
+      <Column Name="JobTitle">Driver</Column>
+      <Column Name="MilesDriven">500</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Ashley</Column>
+      <Column Name="LastName">Miller</Column>
+      <Column Name="Wage">100000</Column>
+      <Column Name="Deductions">5</Column>
+      <Column Name="Hours">45</Column>
+      <Column Name="JobTitle">SrDriver</Column>
+      <Column Name="MilesDriven">625</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Elena</Column>
+      <Column Name="LastName">Reed</Column>
+      <Column Name="Wage">50000</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">40</Column>
+      <Column Name="JobTitle">Driver</Column>
+      <Column Name="MilesDriven">500</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Jessica</Column>
+      <Column Name="LastName">Goldman</Column>
+      <Column Name="Wage">100000</Column>
+      <Column Name="Deductions">5</Column>
+      <Column Name="Hours">45</Column>
+      <Column Name="JobTitle">SrDriver</Column>
+      <Column Name="MilesDriven">625</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Jack</Column>
+      <Column Name="LastName">Neurohr</Column>
+      <Column Name="Wage">20</Column>
+      <Column Name="Deductions">4</Column>
+      <Column Name="Hours">30</Column>
+      <Column Name="JobTitle">Driver</Column>
+      <Column Name="MilesDriven">0</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Amy</Column>
+      <Column Name="LastName">Ringwald</Column>
+      <Column Name="Wage">64000</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">23</Column>
+      <Column Name="JobTitle">SrDriver</Column>
+      <Column Name="MilesDriven">17000</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Mark</Column>
+      <Column Name="LastName">Stump</Column>
+      <Column Name="Wage">150000</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">55</Column>
+      <Column Name="JobTitle">SrDriver</Column>
+      <Column Name="MilesDriven">177375</Column>
+    </Row>
+    <Row>
+      <Column Name="FirstName">Elle</Column>
+      <Column Name="LastName">Woods</Column>
+      <Column Name="Wage">650000</Column>
+      <Column Name="Deductions">1</Column>
+      <Column Name="Hours">60</Column>
+      <Column Name="JobTitle">Manager</Column>
+      <Column Name="MilesDriven">0</Column>
+    </Row>
+  </Table>
+  <Table Name="JobTypes">
+    <Row>
+      <Column Name="JobTitle">Driver</Column>
+      <Column Name="PTODays">10</Column>
+      <Column Name="YrsExp">0</Column>
+      <Column Name="MinMiles">0</Column>
+    </Row>
+    <Row>
+      <Column Name="JobTitle">SrDriver</Column>
+      <Column Name="PTODays">20</Column>
+      <Column Name="YrsExp">10</Column>
+      <Column Name="MinMiles">1000</Column>
+    </Row>
+    <Row>
+      <Column Name="JobTitle">Manager</Column>
+      <Column Name="PTODays">30</Column>
+      <Column Name="YrsExp">10</Column>
+      <Column Name="MinMiles">0</Column>
+    </Row>
+  </Table>
+</Database>

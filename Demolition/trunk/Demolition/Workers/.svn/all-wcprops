@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/407/trunk/Demolition/Workers
+END
+CreateInstanceWorker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/407/trunk/Demolition/Workers/CreateInstanceWorker.cs
+END
+DataWorker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/398/trunk/Demolition/Workers/DataWorker.cs
+END
+Worker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/403/trunk/Demolition/Workers/Worker.cs
+END
+ShutDownDemoWorker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/210/trunk/Demolition/Workers/ShutDownDemoWorker.cs
+END

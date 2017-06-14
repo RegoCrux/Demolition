@@ -1,0 +1,69 @@
+migration "Demolition" revision => 1:
+    defaults:
+        default-primary-key ID type => Int32, nullable => false, identity => true
+
+    type-aliases:
+        type-alias NString type => String, length => 200, nullable => false
+
+    version 1:
+        add table Users:
+            Email      type => NString
+            Name       type => NString
+            Password   type => NString
+            Role       type => NString
+            UpdatedAt  type => DateTime
+            CreatedAt  type => DateTime
+        add table Apps:
+            Name       type => NString
+            AMI        type => NString
+            AppSchema  type => NString
+            DLLs       type => NString
+            Logo       type => Binary
+            UpdatedAt  type => DateTime
+            CreatedAt  type => DateTime
+        add table Demos:
+            Name       type => NString
+            UserID     type => Int32
+            IndustryID type => Int32
+            State      type => NString
+            UpdatedAt  type => DateTime
+            CreatedAt  type => DateTime
+        add table Instances:
+            AppID      type => Int32
+            DemoID     type => Int32
+            EC2State   type => NString
+            DataState  type => NString
+            UpdatedAt  type => DateTime
+            CreatedAt  type => DateTime
+        add table Industries:
+            Name        type => NString
+            Description type => NString
+            UpdatedAt   type => DateTime
+            CreatedAt   type => DateTime
+    version 2:
+        alter table Apps:
+            remove column DLLs
+            add column Path     type => NString
+    version 3:
+        alter table Apps:
+            remove column Logo
+            remove column AMI
+            remove column AppSchema
+    version 4:
+        add table Jobs:
+            Name        type => NString
+            CreatedAt   type => DateTime
+    version 5:
+		alter table Demos:
+			add column EC2Id     type => String
+	version 6:
+		alter table Jobs:
+			remove column Name
+			add column Payload	type => String, nullable => false
+	version 7:
+		alter table Instances:
+			add column Ec2Url	type => String
+    version 8:
+		alter table Demos:
+			remove column EC2Id
+			add column EC2Id     type => String

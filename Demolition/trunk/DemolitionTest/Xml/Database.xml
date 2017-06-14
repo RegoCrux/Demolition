@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Database Name="HROProduction">
+    <Table Name="Users">
+        <Row>
+            <Column Name="FirstName">Joe</Column>
+            <Column Name="LastName">Smoe</Column>
+            <Column Name="GrossPay">50000</Column>
+            <Column Name="Deductions">1</Column>
+            <Column Name="Taxes">20000</Column>
+            <Column Name="JobTitle">Driver</Column>
+            <Column Name="MilesDriven">500.25</Column>
+            <Column Name="HireDate">04/01/2010</Column>
+            <Column Name="OnPayroll">false</Column>
+        </Row>
+    </Table>
+</Database>

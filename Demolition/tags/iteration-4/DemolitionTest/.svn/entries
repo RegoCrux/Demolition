@@ -1,0 +1,77 @@
+10
+
+dir
+415
+https://sse.se.rit.edu/public-svn/naq0676-sentinelprime_demolition/tags/iteration-4/DemolitionTest
+https://sse.se.rit.edu/public-svn/naq0676-sentinelprime_demolition
+
+
+
+2010-03-30T22:16:56.790837Z
+243
+naq0676
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+6705216d-3e84-4ba7-a9f7-ff6a3fcfd327
+
+Unit
+dir
+
+Utils
+dir
+
+DemolitionTest.csproj
+file
+
+
+
+
+2010-05-17T18:48:22.718039Z
+f05dfe6b3c90b3ce6c20fcbe784d01c8
+2010-03-22T00:24:49.954997Z
+194
+naq0676
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4555
+
+Acceptance
+dir
+
+Fixtures
+dir
+
+Properties
+dir
+

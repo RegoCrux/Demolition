@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 65
+*.cache
+*.suo
+DemolitionCheckChangeService
+_ReSharper.Demolition
+
+END

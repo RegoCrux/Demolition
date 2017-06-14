@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreviewPayroll", "PreviewPayroll\PreviewPayroll.csproj", "{F80D38E0-8B96-4391-ABD1-A3559F9D6A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRO", "HRO\HRO.csproj", "{520EE50B-A7B6-4568-BDA8-3ABE106DCB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80D38E0-8B96-4391-ABD1-A3559F9D6A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80D38E0-8B96-4391-ABD1-A3559F9D6A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80D38E0-8B96-4391-ABD1-A3559F9D6A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80D38E0-8B96-4391-ABD1-A3559F9D6A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520EE50B-A7B6-4568-BDA8-3ABE106DCB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520EE50B-A7B6-4568-BDA8-3ABE106DCB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520EE50B-A7B6-4568-BDA8-3ABE106DCB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520EE50B-A7B6-4568-BDA8-3ABE106DCB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

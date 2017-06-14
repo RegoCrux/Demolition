@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="F80D38E0-8B96-4391-ABD1-A3559F9D6A2E" ModuleId="PreviewPayroll" />
+  <Module PersistentId="AjaxControlToolkit, Version=3.0.20229.38826, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" ModuleId="AjaxControlToolkit" />
+  <Module PersistentId="520EE50B-A7B6-4568-BDA8-3ABE106DCB8F" ModuleId="HRO" />
+</Modules>

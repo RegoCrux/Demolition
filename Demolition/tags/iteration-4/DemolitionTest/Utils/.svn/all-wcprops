@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils
+END
+AcceptanceFixture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils/AcceptanceFixture.cs
+END
+Helper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils/Helper.cs
+END
+UnitFixture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils/UnitFixture.cs
+END
+FakeFileWrapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils/FakeFileWrapper.cs
+END
+AssemblyCleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/344/tags/iteration-4/DemolitionTest/Utils/AssemblyCleaner.cs
+END

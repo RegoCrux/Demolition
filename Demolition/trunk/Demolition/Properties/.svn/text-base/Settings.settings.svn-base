@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Demolition.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AMI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Bumblebee</Value>
+    </Setting>
+    <Setting Name="AdministratorRole" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Administrator</Value>
+    </Setting>
+    <Setting Name="PasswordEncryptString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">tUst6-u3anuyu8u-</Value>
+    </Setting>
+    <Setting Name="AWSAccessKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AKIAIAXGA3E4CE3J5F2A</Value>
+    </Setting>
+    <Setting Name="AWSSecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">m7rvYxFPsRXAtDNiuRKNyRF5VA1tMFvurmwFAtlN</Value>
+    </Setting>
+    <Setting Name="AWSOwners" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;513635588618&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SSHUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SuperUser</Value>
+    </Setting>
+    <Setting Name="SSHPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sentprime</Value>
+    </Setting>
+    <Setting Name="MasterDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MasterDb</Value>
+    </Setting>
+    <Setting Name="MasterTable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MasterTable</Value>
+    </Setting>
+    <Setting Name="MasterDBUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="MasterDBPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sentprime</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

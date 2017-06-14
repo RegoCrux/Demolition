@@ -1,0 +1,129 @@
+===============================================================================
+Demolition
+===============================================================================
+
+The Demolition Amazon Sales Cloud Environment is an application that configures
+and launches sample Paychex demonstrations on Amazon EC2. The following is an
+introduction to the codebase and what you'll need to get started.
+
+--------------------------------------------------------------------------------
+Layout
+--------------------------------------------------------------------------------
+
+.
+|-- BUGS                    <= Known issues of the project
+|-- Demolition              <= ASP.NET MVC 2 web application
+|-- Demolition.mdl          <= Database migration file
+|-- Demolition.sln          <= VS2008 Solution
+|-- DemolitionChangeChecker <= Console app that checks instances
+|-- DemolitionQueue         <= Job worker queue
+|-- DemolitionSeeder        <= Populates the database for dev/test
+|-- DemolitionTest          <= Unit and acceptance test suite
+|-- Rakefile                <= Automation tasks using Rake
+|-- README                  <= You're looking at it!
+|-- database.wdi            <= Database connection info for migrations
+`-- lib                     <= Dependency DLLs
+
+--------------------------------------------------------------------------------
+Requirements
+--------------------------------------------------------------------------------
+
+To run:
+
+	Visual Studio 2008 SP2 or higher
+	http://www.microsoft.com/express/
+
+	ASP.NET MVC 2
+	http://www.asp.net/(S(d35rmemuuono1wvm1gsp2n45))/mvc
+
+For automation (database migrations, testing, deploys, etc)
+
+	RubyGems
+	http://rubygems.org
+
+	Rake
+	http://rubygems.org/gems/rake
+
+For automatic deploys:
+
+	Cygwin
+	http://www.cygwin.com/
+
+	net-sftp
+	http://rubygems.org/gems/net-sftp
+
+--------------------------------------------------------------------------------
+Dependencies
+--------------------------------------------------------------------------------
+
+Most of these are bundled in the lib/ directory, and all projects refer to them.
+For posterity's sake they are documented here.
+
+AWS SDK for .NET
+http://aws.amazon.com/sdkfornet/
+
+octalforty Wizardby - Database Migrations
+http://code.google.com/p/octalforty-wizardby/
+
+SharpSSH
+http://www.codeproject.com/KB/IP/sharpssh.aspx?msg=2133396
+
+NLog
+http://nlog-project.org/
+
+MbUnit
+http://www.mbunit.com/
+
+WatiN
+http://watin.sourceforge.net/
+
+--------------------------------------------------------------------------------
+Inital Setup
+--------------------------------------------------------------------------------
+
+Running the web application is possible through IIS or VS. In either case, make
+sure to change the database it connects to. Because of multiple projects used,
+there are several places where the database connection string is specified:
+
+* Rakefile
+* database.wdi
+* Demolition/Models/Demolition.dbml
+* Demolition/Web.config
+
+Make sure to change these if you are hosting the database somewhere else. You
+will need to migrate the database as well with `rake db:migrate`. If you need to
+generate some simple login credentials, `rake db:seed` will do it.
+
+--------------------------------------------------------------------------------
+Testing
+--------------------------------------------------------------------------------
+
+Running the tests is as simple as running `rake` from the project root. This
+will run all the unit and acceptance tests with MbUnit and WatiN. Make sure you
+have run `rake db:test:migrate` as well.
+
+--------------------------------------------------------------------------------
+Deploying
+--------------------------------------------------------------------------------
+
+We built a deploy script that requires Cygwin, RubyGems, and net-sftp that does
+the following:
+
+# Exports the application from SVN
+# Compiles it
+# Replaces "Dev" with "Production" database
+# Packages the app and all necessary files in a tarball
+# SFTPs it to the production server
+# Unzips it to a new timestamp folder
+# Bounces IIS with new site
+# Sets some permissions on the Uploads folder so apps can be uploaded
+
+Run this with `rake deploy`. Also make sure the production database is up to
+date with `rake db:production:migrate`.
+
+You'll also need to run the two console applications. Remote desktop or SSH into
+the production instance, and run these two in the background (or just leave it
+running):
+
+* rake queue:start
+* rake change_checker:start

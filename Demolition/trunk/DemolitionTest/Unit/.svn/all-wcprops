@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/375/trunk/DemolitionTest/Unit
+END
+AppTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/372/trunk/DemolitionTest/Unit/AppTest.cs
+END
+IndustryTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/375/trunk/DemolitionTest/Unit/IndustryTest.cs
+END
+DemoTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/212/trunk/DemolitionTest/Unit/DemoTest.cs
+END
+DatabaseTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/375/trunk/DemolitionTest/Unit/DatabaseTest.cs
+END
+InstanceTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/298/trunk/DemolitionTest/Unit/InstanceTest.cs
+END
+JobTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/213/trunk/DemolitionTest/Unit/JobTest.cs
+END

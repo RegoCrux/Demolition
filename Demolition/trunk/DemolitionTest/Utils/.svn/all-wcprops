@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/383/trunk/DemolitionTest/Utils
+END
+AcceptanceFixture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/383/trunk/DemolitionTest/Utils/AcceptanceFixture.cs
+END
+Helper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/377/trunk/DemolitionTest/Utils/Helper.cs
+END
+BrowserAssert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/380/trunk/DemolitionTest/Utils/BrowserAssert.cs
+END
+UnitFixture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/273/trunk/DemolitionTest/Utils/UnitFixture.cs
+END
+FakeFileWrapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/350/trunk/DemolitionTest/Utils/FakeFileWrapper.cs
+END
+AssemblyCleaner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/public-svn/naq0676-sentinelprime_demolition/!svn/ver/231/trunk/DemolitionTest/Utils/AssemblyCleaner.cs
+END

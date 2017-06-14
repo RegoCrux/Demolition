@@ -1,0 +1,140 @@
+#CREDENTIALS = ['demo.litanyagainstfear.com', 'Administrator', {:password => 'sentprime'}]
+CREDENTIALS = ['ec2-184-73-72-219.compute-1.amazonaws.com', 'Administrator', {:password => 'sentprime'}]
+
+task :default => 'test:all'
+
+desc 'removes build files'
+task :clean do
+  FileUtils.rm_rf("**/bin")
+end
+
+desc 'compile'
+task :compile => :clean do
+  msbuild_path = File.join(ENV['windir'].dup, 'Microsoft.NET', 'Framework', 'v3.5', 'msbuild.exe')
+  sh "#{msbuild_path} Demolition.sln /maxcpucount /v:m /property:BuildInParallel=false /property:Configuration=debug /property:Architecture=x86 /t:Rebuild"
+end
+
+desc 'load gems'
+task :environment do
+  require 'rubygems'
+  require 'net/ssh'
+  require 'net/sftp'
+end
+
+namespace :queue do
+  desc 'run the queue'
+  task :start do
+    sh "cd #{File.join("DemolitionQueue", "bin", "Debug")} && DemolitionQueue.exe"
+  end
+
+  desc 'tail the logs'
+  task :tail => :environment do
+    puts "> Tailing the queue logs..."
+    Net::SSH.start(*CREDENTIALS) do |ssh|
+      puts ssh.exec!("cd /cygdrive/c/LOGS && cat $(ls | tail -1) | tail -50")
+    end
+  end
+end
+
+desc 'deploy to production'
+task :deploy => [:environment, "db:production:migrate"] do
+  puts "> Exporting, preparing, compressing release"
+  app        = "Demolition"
+  queue      = "#{app}QueueService"
+  queue_exe  = "#{queue}.exe"
+  timestamp  = Time.now.strftime("%Y%m%d%H%M%S")
+  release    = "#{timestamp}.tar"
+
+  service    = File.join(timestamp, queue, "bin", "Debug", queue_exe)
+  files      = %w[bin/ Content/ Uploads/ Views/ Global.asax Web.config NLog.config].map { |f| File.join(timestamp, app, f) }
+  files     << File.join(timestamp, queue, "bin/")
+  web_config = File.join(timestamp, app, "Web.config")
+
+  sh "svn export https://sse.se.rit.edu/public-svn/naq0676-sentinelprime_demolition/trunk/ #{timestamp}"
+  sh "cd #{timestamp} && rake compile"
+  xml = File.read(web_config).gsub!("Catalog=Dev", "Catalog=Production")
+  File.open(web_config, "w") { |f| f.write(xml) }
+  sh "tar cvf #{release} #{files.join(' ')}"
+
+  Net::SFTP.start(*CREDENTIALS) do |sftp|
+    puts "> Uploading..."
+    sftp.upload! release, release
+  end
+
+  Net::SSH.start(*CREDENTIALS) do |ssh|
+    puts "> Unpacking release"
+    puts ssh.exec!("tar xvf #{release}; rm #{release}")
+
+    puts "> Bouncing IIS"
+    puts ssh.exec!("./Utils/appcmd.exe delete site #{app}")
+    puts ssh.exec!(%{./Utils/appcmd.exe add site /name:#{app} /physicalPath:"C:\\Program Files\\ICW\\home\\#{CREDENTIALS[1]}\\#{timestamp}\\#{app}" /bindings:http://*:80})
+
+    puts "> Bouncing Queue"
+    install_util = "/cygdrive/c/Windows/Microsoft.NET/Framework/v2.0.50727/installutil.exe"
+    ssh.exec!("net stop #{queue}")
+    ssh.exec!("#{install_util} /u #{timestamp}/#{queue}/bin/Debug/#{queue_exe}")
+    ssh.exec!("#{install_util} #{timestamp}/#{queue}/bin/Debug/#{queue_exe}")
+    ssh.exec!("net start #{queue}")
+  end
+
+  puts "> Cleaning up"
+  sh "rm -rf #{timestamp}*"
+end
+
+namespace :test do
+  desc 'run all tests'
+  task :all => :compile do
+    win7_path = 'C:\Program Files (x86)'
+    win6_path = 'C:\Program Files'
+    exe_path  = File.exist?(win7_path) ? win7_path : win6_path
+    
+    sh %{"#{exe_path}\\Gallio\\bin\\Gallio.Echo.exe" DemolitionTest\\bin\\Debug\\DemolitionTest.dll}
+  end
+end
+
+namespace :db do
+  desc 'info for the db'
+  task :info do
+    sh "lib/wizardby.exe info"
+  end
+  
+  desc 'migrate the db'
+  task :migrate do
+    sh "lib/wizardby.exe upgrade"
+  end
+
+  desc 'create the db'
+  task :create do
+    sh "lib/wizardby.exe deploy"
+  end
+
+  desc 'seed it'
+  task :seed => :compile do
+    path = File.join("DemolitionSeeder", "bin", "Debug", "DemolitionSeeder.exe")
+    sh path
+  end
+  
+  namespace :test do
+    desc 'info for the db'
+    task :info do
+      sh "lib/wizardby.exe info /e:test"
+    end
+    
+    desc 'migrate the db'
+    task :migrate do
+      sh "lib/wizardby.exe upgrade /e:test"
+    end
+  end
+  
+  namespace :production do
+    desc 'info for the db'
+    task :info do
+      sh "lib/wizardby.exe info /e:production"
+    end
+    
+    desc 'migrate the db'
+    task :migrate do
+      sh "lib/wizardby.exe upgrade /e:production"
+    end
+  end
+end

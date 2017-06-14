@@ -1,0 +1,327 @@
+body {
+  background: #031634;
+  font-size: 11px;
+  padding: 20px 0 40px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 3em;
+  text-shadow: black 2px 2px 2px;
+}
+
+h1 a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #036564;
+  display: inline-block;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+#nav {
+  padding-top: 15px;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+#nav a, #nav span {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 7px;
+}
+
+#nav a {
+  border-left: 1px solid;
+}
+
+#main {
+  background: #E8DDCB;
+  color: #000;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#main ul {
+  list-style: none;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#main ul li {
+  margin-left: 0;
+}
+
+#main ul li a {
+  color: #000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #EEE;
+  background: #CDB380;
+  padding-left: 0.5em;
+  display: block;
+  text-decoration: none;
+}
+
+#main ul li a:hover {
+  background: #033649;
+  color: #fff;
+  cursor: pointer;
+}
+
+#main ul li:first-child {
+  border-top: 1px solid #EEE;
+}
+
+#main ul li h3 {
+  display: inline-block;
+  width: 300px;
+}
+
+#main ul li span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding: 0.25em;
+}
+
+
+#main ul li span.user {
+  width: 200px;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+#main .green {
+  background: green;
+  color: #000;
+}
+
+#main ul li .red {
+  background: red;
+  color: #000;
+}
+
+#main ul li .yellow {
+  background: yellow;
+  color: #000;
+}
+
+#main #create {
+  float: left;
+}
+
+#main form {
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+#main form#signin {
+  width: 375px;
+  margin: 0 auto;
+}
+
+#main .link {
+  color: blue;
+}
+
+#main .links {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  float: right;
+}
+
+#main .links a {
+  background: #036564;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#main .links a:hover {
+  background: #033649;
+}
+
+#main .demos {
+  text-align: center;
+}
+
+#main .demos img {
+  width: 200px;
+  height: 200px;
+}
+
+#main .demos a {
+  color: #036564;
+  text-decoration: none;
+  margin: 0 20px;
+  display: inline-block;
+  width: 256px;
+  font-size: 3em;
+  font-weight: bold;
+  background: url('/Content/images/cash-register-icon.png') no-repeat center;
+  padding-top: 256px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#main .demos a:hover {
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #033649;
+  color: #FFFFFF;
+}
+
+#main .industries {
+  margin-left: 40px;
+}
+
+#main .industries > div {
+  margin: 20px 0;
+}
+
+#main #create ol > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+#main #create {
+    background: #CDB380;
+    margin: 0 23px 23px;
+}
+
+#main #create ol > li .number {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 60px;
+    color: #033649;
+    height: 90px;
+}
+
+#main #create ol > li .copy {
+    font-size: 16px;
+    color: #033649;
+    height: 60px;
+    margin-bottom: 10px
+}
+
+#main #create ol > li input[type="text"] {
+    width: 75%;
+    font-size: 20px;
+}
+
+#main #create ol > li label {
+    font-weight: bold;
+}
+
+#main #create > div {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#main #create input[type="submit"] {
+  background: #41627E;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+}
+
+
+#main #create textarea {
+  width: 90%;
+  height: 100px;
+}
+
+#main #create input[type="submit"]:hover {
+  background: #033649;
+  cursor: pointer;
+}
+
+#main #create  #flash_error, #main #create .field-validation-error {
+    margin: 20px 0;
+    display: block;
+    width: 75%;
+}
+
+#main .app p {
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 20px;
+    width: 30%;
+}
+
+#main .app p strong {
+    padding-right: 0.5em;
+}
+
+#main .app h3 {
+    font-size: 2em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#footer {
+  text-align: right;
+}
+
+#footer a {
+  margin: 2em 0;
+  background: url('/Content/images/paychex.png');
+  height: 33px;
+  text-indent: -9999px;
+  width: 200px;
+  display: inline-block;
+}
+
+#flash_notice, #flash_error, .field-validation-error {
+  padding: 5px 8px;
+  margin: 10px 20px;
+}
+ 
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+ 
+#flash_error, .field-validation-error {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}

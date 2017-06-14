@@ -1,0 +1,21 @@
+deployment:
+    environment development
+        platform            => sqlserver2008
+        host                => demo.litanyagainstfear.com
+        database            => Dev
+        login               => sa
+        password            => sentprime
+        
+    environment test
+        platform            => sqlserver2008
+        host                => demo.litanyagainstfear.com
+        database            => Test
+        login               => sa
+        password            => sentprime
+        
+    environment production
+        platform            => sqlserver2008
+        host                => demo.litanyagainstfear.com
+        database            => Production
+        login               => sa
+        password            => sentprime
